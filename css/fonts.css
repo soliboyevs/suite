@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Epilogue-bold";
+    src: url(../fonts/Epilogue/static/Epilogue-Bold.ttf);
+}
+@font-face {
+    font-family: "Epilogue-Regular";
+    src: url(../fonts/Epilogue/static/Epilogue-Regular.ttf);
+}

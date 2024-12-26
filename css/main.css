@@ -1,0 +1,215 @@
+@import url(../css/fonts.css);
+@import url(../css/media.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #172339;
+    --secondary-color: #49566D;
+    --background-color: #F3EDE7;
+    --text-color: #FAF8F6;
+    --purple: #CB30E3;
+    --yellow: #FFA84E;
+    --third: #A060FF;
+
+    --epilogue: "Raleway";
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.btn{
+    width: 200px;
+    height: 45px;
+    color: #172339;
+    border: 1px solid #172339;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 4px;
+    font-family: var(--epilogue);
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-btn{
+    transition: .10s;
+}
+body{
+    background-color: #F3EDE7;
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color:#F3EDE7;
+}
+.nav{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 30px;
+}
+.logo{
+    font-size: 48px;
+    font-family: var(--epilogue);
+    color: #172339;
+    font-weight: 900;
+}
+.logo:hover {
+    color:  #FFA84E ;
+}
+.site-hero{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+.site-header{
+    display: flex;
+}
+.site-mask-image{
+    width: 350px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: radial-gradient(141.42% 141.42% at 100% 100%, #A060FF 0%, #CB30E3 33.18%, #FFA84E 100%);
+}
+.Iphone{
+    display: block;
+    padding-left: 60px;
+    padding-top: 287px;
+}
+.site-main-hero{
+    display: flex;
+}
+.site-mask{
+    display: flex;
+}
+.site-mask-text{
+    display: flex;
+    flex-direction: column;
+}
+.site-head{
+    padding-top: 200px;
+}
+.site-head-h1{
+    font-size: 56px;
+    font-family: var(--epilogue);
+    font-weight: 700;
+    width: 500px;
+    height: 156px;
+}
+.site-head-p{
+    font-size: 14px;
+    font-family: var(--epilogue);
+    font-weight: 100;
+    width: 250px;
+    height: 100px;
+}
+.site-btn{
+    height: 50px;
+    background-color: #172339;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    padding-bottom: 10px;
+    transition: .7s;
+}
+.site-mask-text{
+    width: 10px;
+    margin: auto;
+    padding-left: 50px;
+    line-height: 50px;
+    font-family: var(--epilogue);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.site-mask{
+    padding-top: 100px;
+    padding-left: 0;
+}
+
+.site-btn:hover{
+    background: radial-gradient(141.42% 141.42% at 100% 100%, #A060FF 0%, #CB30E3 33.18%, #FFA84E 100%);
+   color: #F3EDE7;
+}
+.nav-btn:hover{
+    background: radial-gradient(141.42% 141.42% at 100% 100%, #A060FF 0%, #CB30E3 33.18%, #FFA84E 100%);
+    color: #172339;
+}
+
+.card{
+    width: 1109px;
+    height: 545px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: var(--Dark-Blue, #172339);
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    margin: auto;
+}
+.man-image{
+    height: 650px;
+    padding-bottom: 20px;
+    padding-left: 75px;
+    position: relative;
+    padding-bottom: 105px;
+}
+.card-text{
+    width: 220px;
+    margin: 0 auto;
+    padding-top: 180px;
+    color: #F3EDE7;
+}
+.card-h1{
+    font-family: var(--epilogue);
+    font-size: 35px;
+    line-height: 80px;
+}
+.card-p{
+    font-family: var(--epilogue);
+    font-size: 16px;
+    line-height: 15px;
+    padding-bottom: 20px;
+}
+.card-p-1{
+    font-family: var(--epilogue);
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.card-p-2{
+    font-family: var(--epilogue);
+    font-size: 15px;
+}
+
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1000px;
+    margin: auto;
+    background-color: #F3EDE7;
+}
+.footer-nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   column-gap: 10px;
+   font-family: var(--epilogue);
+   
+}
+
+i:hover{
+    color: #172339;
+}

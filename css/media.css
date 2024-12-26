@@ -1,0 +1,146 @@
+
+@media screen and (max-width: 1024px) {
+    .nav {
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    .site-hero {
+        width: 90%;
+        padding-bottom: 100px;
+    }
+
+    .site-head-h1 {
+        font-size: 48px;
+        width: 100%;
+        height: auto;
+    }
+
+    .site-head-p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .site-mask-image {
+        width: 300px;
+        height: auto;
+    }
+
+    .Iphone {
+        padding-left: 40px;
+        padding-top: 200px;
+    }
+
+    .card {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .man-image {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .card-text {
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+
+/* Small screens (mobile phones) */
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav .nav-btn {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .site-hero {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .site-head {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .site-head-h1 {
+        font-size: 32px;
+        line-height: 1.5;
+    }
+
+    .site-mask {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-mask-image {
+        width: 250px;
+        height: auto;
+    }
+
+    .site-mask-text {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .card {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .footer {
+        width: 90%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-nav a {
+        margin: 10px 0;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 32px;
+    }
+
+    .site-head-h1 {
+        font-size: 24px;
+    }
+
+    .site-btn, .nav-btn {
+        width: 100%;
+        height: 40px;
+    }
+
+    .card-h1 {
+        font-size: 24px;
+    }
+
+    .card-p {
+        font-size: 14px;
+    }
+
+    .man-image {
+        padding: 0;
+    }
+}
